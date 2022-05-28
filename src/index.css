@@ -1,5 +1,64 @@
+/* general styling start */
 * {
   box-sizing:border-box;
   margin: 0;
   padding: 0;
 }
+body{
+  background-color: #D3CDAE40;
+}
+a{
+  text-decoration: none;
+}
+
+.invisible{
+  display: none;
+}
+/* general styling end */
+
+/*nav start*/
+nav{
+  background-color: #E9C9AE;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 50px;
+}
+
+.nav-logo{
+  align-self: center;
+}
+
+.nav-list, fa-bars{
+  display:flex;
+}
+
+.nav-item{
+  list-style-type:none;
+  padding-left: 40px;
+}
+
+
+/*nav end*/
+
+/*weather start*/
+
+.weather-feature{
+  background-color: #DAB692;
+}
+
+/*weather end*/
+
+/*sections start*/
+
+.home-main-sections{
+  border: 1px solid black;
+}
+/*sections end*/
+
+/* footer start*/
+
+footer{
+  background-color: #E9C9AE;
+}
+
+/*footer end*/
