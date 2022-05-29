@@ -3,8 +3,9 @@ import "./app.css";
 import Footer from "./components/Footer";
 // import Navbar from "./components/Navbar";
 import Home from "./Home";
-import Accommodation from "./Accommodation";
-import GoingOut from "./GoingOut";
+import Accommodation from "./Accommodation/Accommodation";
+import DaysOut from "./DaysOut/DaysOut";
+import EatingOut from './EatingOut/EatingOut';
 import Testimonials from "./Testimonials";
 import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
 
@@ -22,10 +23,13 @@ export default function App(){
             <Link exact to="/">Home</Link>
           </li>
           <li className="nav-item">
-            <Link to="/accommodation">Accommodation</Link>
+            <Link to="/Accommodation">Accommodation</Link>
           </li>
           <li className="nav-item">
-            <Link to="/going-out">Going Out</Link>
+            <Link to="/DaysOut">Days Out</Link>
+          </li>
+          <li className="nav-item">
+            <Link to="/EatingOut">Eating Out</Link>
           </li>
           <li className="nav-item">
             <Link to="/testimonials">Testimonials</Link>
@@ -34,8 +38,9 @@ export default function App(){
       </nav>
         <Routes>
           <Route exact path="/" element={<Home />}/>
-          <Route path="/accommodation" element={<Accommodation />}/>
-          <Route path="/going-out" element={<GoingOut />}/>
+          <Route path="/Accommodation" element={<Accommodation />}/>
+          <Route path="/DaysOut" element={<DaysOut />}/>
+          <Route path="/EatingOut" element={<EatingOut />}/>
           <Route path="/testimonials" element={<Testimonials />}/>
         </Routes>
         </Router>
