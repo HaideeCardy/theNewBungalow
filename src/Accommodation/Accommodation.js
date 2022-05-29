@@ -1,11 +1,18 @@
 import React from 'react';
-import './accommodation.css';
+import Cards from './Cards';
+
 
 function Accommodation() {
   return (
     <div className="accommodation">
+      <Cards/>
     </div>
   );
 }
 
 export default Accommodation;
+
+
+
+
+
