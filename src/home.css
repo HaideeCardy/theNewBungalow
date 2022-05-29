@@ -6,9 +6,40 @@
 
 /*weather end*/
 
-/*sections start*/
+/*carousel start*/
 
-.home-main-sections{
-  border: 1px solid black;
+.carousel-container{
+  height: 300px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-/*sections end*/
+.images{
+  max-width: 300px;
+  max-height: 300px;
+  border-radius: 10px;
+}
+
+.right-arrow{
+  position: absolute;
+  top: 50%;
+  right: 12px;
+  font-size: 2rem;
+  color: black;
+  z-index: 10;
+  cursor: pointer;
+  user-select: none;
+}
+
+.left-arrow{
+  position: absolute;
+  top: 50%;
+  left: 12px;
+  font-size: 2rem;
+  color: black;
+  z-index: 10;
+  cursor: pointer;
+  user-select: none;
+}
+/*carousel end*/
