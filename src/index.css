@@ -5,6 +5,59 @@
   padding: 0;
 }
 
+body{
+  background-color: #D3CDAE40;
+}
+a{
+  text-decoration: none;
+}
+
+/* general styling end */
+
+/*nav start*/
+nav{
+  background-color: #E9C9AE;
+  padding: 15px 0;
+  overflow: auto;
+  white-space: nowrap
+}
+
+.nav-logo{
+  align-self: center;
+}
+
+.nav-list{
+  display:flex;
+  
+}
+
+.nav-item{
+  list-style-type:none;
+  padding-left: 40px;
+}
+
+
+/*nav end*/
+
+/* footer start*/
+
+footer{
+  background-color: #E9C9AE;
+  display: flex;
+  padding: 1rem 1rem;
+}
+
+footer>h2{
+  align-self: center;
+}
+
+.airbnb-logo {
+  height: 70px;
+  width: 100px;
+}
+
+/*footer end*/
+
 /* Fonts - font-family: 'Roboto Condensed', sans-serif;
 font-family: 'Square Peg', cursive;*/
 
