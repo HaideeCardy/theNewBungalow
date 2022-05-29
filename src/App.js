@@ -1,12 +1,13 @@
 import React from "react";
 import "./app.css";
 import Footer from "./components/Footer";
-// import Navbar from "./components/Navbar";
 import Home from "./Home";
 import Accommodation from "./Accommodation";
 import GoingOut from "./GoingOut";
 import Testimonials from "./Testimonials";
 import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
+
+console.log(process.env.REACT_APP_API_KEY);
 
 export default function App(){
 
