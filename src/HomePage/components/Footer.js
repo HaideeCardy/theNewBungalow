@@ -6,7 +6,7 @@ function Footer() {
   return (
     <div className="footer">
       <footer id="footer-info">
-        <h2 id="footer-text">For more information and booking visit us at: </h2> <a href=""><img src={airbnbLogo} className="airbnb-logo" alt="airBnb"></img></a> 
+        <h2 id="footer-text">For more information and booking visit us at: </h2> <a href="https://www.airbnb.com/h/thenewbungalow"><img src={airbnbLogo} className="airbnb-logo" alt="airBnb"></img></a> 
         
       </footer>
     </div>

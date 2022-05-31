@@ -4,10 +4,10 @@ const generateTestimonials = (qty) => {
   let testimonials = [];
   for (let i = 0; i < qty; i++) {
     testimonials.push({
-      avatar: faker.image.people(150, 150),
+      avatar: faker.image.avatar(),
       completeName: faker.name.findName(),
-      jobTitle: faker.address.city(),
-      desc: faker.lorem.lines(),
+      city: faker.address.city(),
+      desc: faker.lorem.sentences(2),
     });
   }
   return testimonials;

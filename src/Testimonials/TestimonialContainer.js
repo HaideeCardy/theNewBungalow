@@ -1,15 +1,12 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import Testimonial from './Testimonial';
 import generateTestimonials from './testimonials';
 import '../Css/testimonials.css'
 
 const TestimonialContainer = () => {
-  const [testimonials, setTestimonials] = useState(generateTestimonials(5));
+  const [testimonials] = useState(generateTestimonials(5));
   const [currentIndex, setCurrentIndex] = useState(0);
-  //   console.log(generateTestimonials(5));
-  //   useEffect(() => {
-  //     setTestimonials();
-  //   }, []);
+  
 
   const previous = () => {
     if (currentIndex === 0) {
@@ -34,18 +31,16 @@ const TestimonialContainer = () => {
       {testimonials && <Testimonial data={testimonials[currentIndex]} />}
       </div>
       <div id='btn-section'>
-      <button onClick={() => previous()} className='ui primary basic button'>
+      <button onClick={() => previous()} className='btn'>
         Previous
       </button>
       <button
         onClick={() =>
           setCurrentIndex(Math.floor(Math.random() * testimonials.length))
-        }
-        className='ui violet basic button'
-      >
+        } className='btn'  id='random-btn'>
         Random
       </button>
-      <button onClick={() => next()} className='ui primary basic button'>
+      <button onClick={() => next()}  className='btn'>
         Next
       </button>
       </div>

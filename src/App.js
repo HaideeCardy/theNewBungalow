@@ -1,13 +1,14 @@
 import React from "react";
 import "./Css/index.css";
 import Footer from "./HomePage/components/Footer";
-import Navbar from "./HomePage/components/Navbar";
 import Home from "./HomePage/Home";
 import Accommodation from "./Accommodation/Accommodation";
 import DaysOut from "./DaysOut/DaysOut";
 import EatingOut from './EatingOut/EatingOut';
 import TestimonialContainer from './Testimonials/TestimonialContainer';
 import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
+
+console.log(process.env.REACT_APP_API_KEY);
 
 export default function App(){
 
