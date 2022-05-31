@@ -1,0 +1,87 @@
+body{
+  background-color:#9b937452;
+  
+}
+
+
+
+#content-wrap {
+  padding-bottom: 4rem; 
+}
+
+/* Accommodation/EatingOut Cards Start */
+
+
+
+#cardHeadings {
+  color: #4d4b30;
+  font-size: 2.25rem;
+  font-family:'Square Peg', cursive;
+}
+
+#cards {
+  display:flex;
+  justify-content:center;
+  padding: 3.5rem;
+
+}
+#card {
+  background-color: #FFFDFA;
+  width: 300px;
+  height: 500px;
+  
+}
+
+#cardImg {
+  height: 280px;
+  object-fit: cover;
+}
+
+.info {
+  font-size: 0.95rem;
+  font-family: 'Roboto Condensed', sans-serif;
+  color: #908660;
+  line-height: 1.6;
+}
+
+/* Accomodation/EatingOut Cards End */
+
+
+/* Days out Cards Start */
+
+#dayCard {
+  background-color: #FFFDFA;
+  width: 300px;
+  height: 500px;
+  
+}
+
+#dayCardImg {
+  height: 300px;
+  object-fit: cover;
+}
+
+/* Days out Cards End */
+
+
+/* Media Queries */
+
+@media screen and (min-width: 64em){
+
+  #dayCard {
+    background-color: #FFFDFA;
+    width: 250px;
+    height: 500px;
+    
+  }
+  
+  #dayCardImgBox {
+    height:270px;
+  }
+  
+  #dayCardImg {
+    height: 270px;
+    object-fit: cover;
+  }
+  
+}
