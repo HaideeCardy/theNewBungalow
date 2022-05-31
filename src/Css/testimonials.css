@@ -1,0 +1,11 @@
+#testimonial-card {
+      padding: 5px;
+      margin: 3rem auto;
+}
+
+#btn-section {
+  display: flex;
+  justify-content: space-evenly;
+  margin: auto;
+  padding-bottom: 3rem;
+}

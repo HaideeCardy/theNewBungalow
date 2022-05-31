@@ -1,13 +1,16 @@
-import React from 'react';
-import '../Css/testimonials.css';
-import { faker } from '@faker-js/faker';
+import {faker} from '@faker-js/faker';
 
-function Testimonials () {
-  return (
-    <div className="testimonials">
-      <h1>Testimonials</h1>
-    </div>
-  );
-}
+const generateTestimonials = (qty) => {
+  let testimonials = [];
+  for (let i = 0; i < qty; i++) {
+    testimonials.push({
+      avatar: faker.image.people(150, 150),
+      completeName: faker.name.findName(),
+      jobTitle: faker.address.city(),
+      desc: faker.lorem.lines(),
+    });
+  }
+  return testimonials;
+};
 
-export default Testimonials;
+export default generateTestimonials;

@@ -6,7 +6,7 @@ import Home from "./HomePage/Home";
 import Accommodation from "./Accommodation/Accommodation";
 import DaysOut from "./DaysOut/DaysOut";
 import EatingOut from './EatingOut/EatingOut';
-import Testimonials from "./Testimonials/Testimonials";
+import TestimonialContainer from './Testimonials/TestimonialContainer';
 import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
 
 export default function App(){
@@ -32,7 +32,7 @@ export default function App(){
             <Link to="/EatingOut">Eating Out</Link>
           </li>
           <li className="nav-item" id="nav-text">
-            <Link to="/testimonials">Testimonials</Link>
+            <Link to="/TestimonialContainer">Testimonials</Link>
           </li>
       </ul>
       </nav>
@@ -41,7 +41,7 @@ export default function App(){
           <Route path="/Accommodation" element={<Accommodation />}/>
           <Route path="/DaysOut" element={<DaysOut />}/>
           <Route path="/EatingOut" element={<EatingOut />}/>
-          <Route path="/testimonials" element={<Testimonials />}/>
+          <Route path="/TestimonialContainer" element={<TestimonialContainer />}/>
         
         </Routes>
         </Router>
