@@ -4,7 +4,7 @@ import Cards from './Cards';
 
 function Accommodation() {
   return (
-    <div className="accommodation">
+    <div id="content-wrap">
       <Cards/>
     </div>
   );

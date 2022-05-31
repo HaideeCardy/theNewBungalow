@@ -1,9 +1,10 @@
 import React from 'react';
 import EatingOutCards from './EatingOutCards';
+import '../Css/cards.css'
 
 function EatingOut() {
   return (
-    <div className="eatingOut">
+    <div className="eatingOut" id="content-wrap">
       <EatingOutCards/>
     </div>
   );

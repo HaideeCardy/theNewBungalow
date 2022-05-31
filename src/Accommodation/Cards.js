@@ -1,4 +1,5 @@
 import React from 'react';
+import '../Css/cards.css';
 import bungalow from './Img/sideAccess.JPG';
 import parking from './Img/front.JPG';
 import livingArea from './Img/livingArea.JPG';

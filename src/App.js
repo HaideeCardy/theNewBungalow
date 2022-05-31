@@ -1,37 +1,37 @@
 import React from "react";
-import "./app.css";
-import Footer from "./components/Footer";
-// import Navbar from "./components/Navbar";
-import Home from "./Home";
+import "./Css/index.css";
+import Footer from "./HomePage/components/Footer";
+import Navbar from "./HomePage/components/Navbar";
+import Home from "./HomePage/Home";
 import Accommodation from "./Accommodation/Accommodation";
 import DaysOut from "./DaysOut/DaysOut";
 import EatingOut from './EatingOut/EatingOut';
-import Testimonials from "./Testimonials";
+import Testimonials from "./Testimonials/Testimonials";
 import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
 
 export default function App(){
 
   return(
-    <div className="App">
-      <a href="../public/index.html" className="nav-logo">
+    <div className="App" id='page-container'>
+      <h1 className="nav-logo">
         The New Bungalow
-      </a>
+      </h1>
       <Router>
-        <nav>
+        <nav className="nav-bar">
       <ul className="nav-list">
-        <li className="nav-item">
+        <li className="nav-item" id="nav-text">
             <Link exact to="/">Home</Link>
           </li>
-          <li className="nav-item">
+          <li className="nav-item" id="nav-text">
             <Link to="/Accommodation">Accommodation</Link>
           </li>
-          <li className="nav-item">
+          <li className="nav-item" id="nav-text">
             <Link to="/DaysOut">Days Out</Link>
           </li>
-          <li className="nav-item">
+          <li className="nav-item" id="nav-text">
             <Link to="/EatingOut">Eating Out</Link>
           </li>
-          <li className="nav-item">
+          <li className="nav-item" id="nav-text">
             <Link to="/testimonials">Testimonials</Link>
           </li>
       </ul>
@@ -42,9 +42,12 @@ export default function App(){
           <Route path="/DaysOut" element={<DaysOut />}/>
           <Route path="/EatingOut" element={<EatingOut />}/>
           <Route path="/testimonials" element={<Testimonials />}/>
+        
         </Routes>
         </Router>
+        <div>
       <Footer />
+      </div>
     </div>
 
   )

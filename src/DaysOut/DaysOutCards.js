@@ -1,4 +1,5 @@
 import React from 'react';
+import "../Css/cards.css";
 import holt1 from './Img/holtByfords.png';
 import holt2 from './Img/holt.png';
 import sheringham1 from './Img/sheringhamHut.png';
@@ -88,7 +89,7 @@ const DaysOutCards = () => {
         <div class="content">
           <h2 class="header" id='cardHeadings'>Holkham</h2>
           <div class="meta">
-            <p class="info">A great day out with the children - an awesome adventure playground. They often hold events and trails which enable children to explore the hall, buildings and gardens whilst you soak in all the history.<br></br>Even better there is a breathakingly beautiful beach just down the road.</p>
+            <p class="info">A great day out with the children. They often hold events and trails which enable children to explore the hall, buildings and gardens whilst you soak in all the history.<br></br>Even better there is a breathakingly beautiful beach just down the road.</p>
           </div>
         </div>
         </div>
