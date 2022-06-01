@@ -13,12 +13,43 @@ body{
 
 /*weather start*/
 
+
 .weather {
-  height: 200px; /*to style page remove once weather added*/
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  height: 100px; 
+}
+
+.weather-content {
+  height: 6rem;
+  display: flex;
+  justify-content:space-around;
 }
 
 .weather-feature{
-  background-color: #DAB692;
+  background-color: #FFFDFA;
+}
+
+#weather-text {
+  font-family: 'Roboto Condensed', sans-serif;
+  color: #908660;
+  display: block;
+  padding: 1rem;
+  font-size: 0.9rem;
+}
+
+#location {
+  padding-bottom: 0.5rem;
+  font-family: 'Square Peg', cursive;
+  font-size: 1.7rem;
+  
+}
+
+#weather-symbol {
+  display: flex;
+  padding-left: 4rem;
+  padding-right: 2rem;
 }
 
 /*weather end*/
@@ -33,16 +64,15 @@ body{
 
 .carousel-container{
   margin: auto;
-  height: 280px;
+  height: 260px;
   padding: 1rem;
   
 }
 
 
-
 .images{
-  max-width: 300px;
-  max-height: 300px;
+  width: 300px;
+  height: 250px;
   border-radius: 5px;
 }
 
@@ -50,7 +80,7 @@ body{
 
   position: absolute;
   top: 50%;
-  right: 12px;
+  right: 2rem;
   font-size: 2rem;
   color: #DAB692;
   z-index: 10;
@@ -58,17 +88,20 @@ body{
   user-select: none;
 }
 
+
 .left-arrow{
   position: absolute;
   top: 50%;
-  left: 12px;
+  left: 2rem;
   font-size: 2rem;
   color: #DAB692;
   z-index: 10;
   cursor: pointer;
   user-select: none;
 }
+
 /*carousel end*/
+
 
 /* Welcome Message Start */
 
@@ -80,6 +113,7 @@ h3 {
 .welcomeMessage {
   border-radius: 5px;
   font-family: 'Roboto Condensed', sans-serif;
+  color: #908660;
   background-color: #FFFDFA;
   margin: 2rem;
   padding: 2rem;
@@ -87,10 +121,19 @@ h3 {
 
 /* Welcome Message End */
 
-@media screen and (min-width: 45em){
+
+@media screen and (min-width: 60em){
   
   .Home {
     display: flex;
+  }
+
+  .weather {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 2rem;
+    height: 6.9rem; 
   }
 
   .welcomeMessage {
@@ -105,9 +148,6 @@ h3 {
   .images{
     max-width: 600px;
     top: 100px;
-    left:20px;
-  
-    
-    
+    left:20px;  
   }
 }

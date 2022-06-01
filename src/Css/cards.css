@@ -3,14 +3,11 @@ body{
   
 }
 
-
-
 #content-wrap {
   padding-bottom: 4rem; 
 }
 
-/* Accommodation/EatingOut Cards Start */
-
+/* Accommodation/DaysOut/EatingOut Cards Start */
 
 
 #cardHeadings {
@@ -25,6 +22,8 @@ body{
   padding: 3.5rem;
 
 }
+
+
 #card {
   background-color: #FFFDFA;
   width: 300px;
@@ -66,7 +65,7 @@ body{
 
 /* Media Queries */
 
-@media screen and (min-width: 64em){
+@media screen and (min-width: 60em){
 
   #dayCard {
     background-color: #FFFDFA;

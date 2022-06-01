@@ -6,7 +6,7 @@ const Testimonial = ({ data }) => {
   return (
       <div id="testimonial-card">
         <img id='test-img'  src={data.avatar} alt='avatar' />
-        <div className='content'>
+        <div className='content' id='test-content'>
         <span className='header' id="name">{data.completeName}</span>
         <br></br>
         <span className='city'>{data.city}</span>
