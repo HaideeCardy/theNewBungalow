@@ -69,17 +69,17 @@ body{
 
   #dayCard {
     background-color: #FFFDFA;
-    width: 250px;
-    height: 500px;
+    max-width: 250px;
+    max-height: 500px;
     
   }
   
   #dayCardImgBox {
-    height:270px;
+    max-height:270px;
   }
   
   #dayCardImg {
-    height: 270px;
+    max-height: 270px;
     object-fit: cover;
   }
   

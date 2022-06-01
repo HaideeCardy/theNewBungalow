@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import Testimonial from './Testimonial';
-import generateTestimonials from './testimonials';
+import generateTestimonials from './Testimonials';
 import '../Css/testimonials.css'
 
 const TestimonialContainer = () => {
@@ -26,7 +26,7 @@ const TestimonialContainer = () => {
     console.log(currentIndex);
   };
   return (
-    <div id='content-wrap'>
+    <div id='test-wrap'>
       <div className="testimonial-container">
       {testimonials && <Testimonial data={testimonials[currentIndex]} />}
       </div>
