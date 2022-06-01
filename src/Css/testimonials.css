@@ -59,10 +59,10 @@
 
 @media screen and (min-width: 45em) {
   #testimonial-card {
-    margin-top: 5rem;
+    margin-top: 3rem;
     padding: 2rem 2rem;
     width: 800px;
-    height: 400px;
+    height: 350px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -80,8 +80,16 @@
     font-size: 1.5rem;
   }
   .btn {
-    margin: 2rem;
+    margin: 1rem 2rem;
   }
 
+  #test-wrap {
+    height: 100%;
+    width: 100%;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 4rem; 
+}
 
 }
