@@ -7,7 +7,7 @@ import useFetch from '../customHook/useFetch';
 export default function WeatherContainer(){
 
   const apiKey = process.env.REACT_APP_API_KEY
-  const BASE_URL = `http://api.weatherapi.com/v1/current.json?key=${apiKey}&q=Saxthorpe&aqi=no`
+  const BASE_URL = `https://api.weatherapi.com/v1/current.json?key=${apiKey}&q=Saxthorpe&aqi=no`
   const { data, loadingState, error } = useFetch(BASE_URL);
   return (
     <div>
