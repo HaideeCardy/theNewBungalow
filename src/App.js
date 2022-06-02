@@ -8,21 +8,6 @@ import EatingOut from './EatingOut/EatingOut';
 import TestimonialContainer from './Testimonials/TestimonialContainer';
 import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
 
-const express = require("express");
-const path = require("path");
-
-const app = express();
-
-app.use(express.static(path.join(__dirname, "dist")));
-
-app.use((req, res) => {
-  res.sendFile(path.join(__dirname, "dist", "index.html"));
-});
-
-app.listen(process.env.PORT || 3000, () => {
-  console.log("Server Started");
-});
-
 export default function App(){
 
   return(
