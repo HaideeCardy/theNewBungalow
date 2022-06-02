@@ -1,11 +1,11 @@
 import React from 'react';
 
-const Error = ({ message }) => {
+export default function Error({message}){
   return (   
   <div className='ui error message'>
     <i className='close icon'></i>
     <div className='header'>
-      There were some errors while fetching your data
+      Sorry, an error ocurred while fetching your data.
     </div>
     <ul className='list'>
       <li>{message}</li>
@@ -13,5 +13,3 @@ const Error = ({ message }) => {
 </div>
 );
 };
-
-export default Error;

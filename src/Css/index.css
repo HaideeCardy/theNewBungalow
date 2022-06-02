@@ -37,7 +37,7 @@ h2 {
   position: sticky;
   padding: 15px 15px;
   overflow: auto;
-  white-space: nowrap
+  white-space: nowrap;
 }
 
 .nav-logo{
@@ -52,7 +52,6 @@ h2 {
 
 .nav-list{
   display:flex;
-  justify-content:space-evenly;
   padding-top: 5px;
 }
 
@@ -127,6 +126,9 @@ a:hover {
 /* Media Queries */
 
 @media screen and (min-width: 45em) {
+  .nav-list{
+    justify-content:space-evenly;
+  }
   #footer-info {
     width: 100%;
   }
