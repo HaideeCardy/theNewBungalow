@@ -16,7 +16,7 @@ export default function App(){
         The New Bungalow
       </h1>
       <Router>
-        <nav className="nav-bar">
+        <nav className="nav-bar" basename="/">
       <ul className="nav-list">
         <li className="nav-item" id="nav-text">
             <Link exact to="/">Home</Link>
