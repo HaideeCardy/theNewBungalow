@@ -1,0 +1,195 @@
+/* Fonts - font-family: 'Roboto Condensed', sans-serif;
+font-family: 'Square Peg', cursive;*/
+
+body{
+  background-color:#9b937452;
+  
+}
+
+#content-wrap {
+    padding-bottom: 4rem; 
+}
+
+
+
+/*weather start*/
+
+#weather-card {
+  background-color: #FFFDFA;
+}
+
+.weather {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  height: 100px; 
+}
+
+.weather-content {
+  height: 6rem;
+  display: flex;
+  justify-content:space-around;
+}
+
+.weather-feature{
+  background-color: #FFFDFA;
+}
+
+#weather-text {
+  font-family: 'Roboto Condensed', sans-serif;
+  color: #908660;
+  display: block;
+  padding: 0.5rem;
+  font-size: 0.9rem;
+}
+
+#location {
+  padding: 0.5rem 0;
+  font-family: 'Square Peg', cursive;
+  font-size: 1.7rem;
+  
+}
+
+#weather-symbol {
+  display: flex;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+/*weather end*/
+
+/*carousel start*/
+
+.pic-carousel {
+  display: flex;
+  position: relative;
+  justify-content: center;
+}
+
+.carousel-container{
+  margin: auto;
+  height: 260px;
+  padding: 1rem;
+  
+}
+
+
+.images{
+  width: 300px;
+  height: 250px;
+  border-radius: 5px;
+}
+
+.right-arrow{
+
+  position: absolute;
+  top: 50%;
+  right: 2rem;
+  font-size: 2rem;
+  color: #DAB692;
+  z-index: 10;
+  cursor: pointer;
+  user-select: none;
+}
+
+
+.left-arrow{
+  position: absolute;
+  top: 50%;
+  left: 2rem;
+  font-size: 2rem;
+  color: #DAB692;
+  z-index: 10;
+  cursor: pointer;
+  user-select: none;
+}
+
+/*carousel end*/
+
+
+/* Welcome Message Start */
+
+h3 {
+  font-family: 'Square Peg', cursive;
+  font-size: 2rem;
+}
+
+.welcomeMessage {
+  border-radius: 5px;
+  font-family: 'Roboto Condensed', sans-serif;
+  color: #908660;
+  background-color: #FFFDFA;
+  margin: 2rem;
+  padding: 2rem;
+}
+
+
+
+/* Welcome Message End */
+
+
+@media screen and (min-width: 60em){
+  
+  .Home {
+    padding-top: 2rem;
+  }
+
+  #content-wrap {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 4rem; 
+}
+
+#weather-carousel {
+  padding-bottom: 5rem;
+}
+
+  #weather-card {
+    width: 350px;
+    height: 120px;
+    padding-top: 1rem;
+    
+  }
+
+
+  h3 {
+    font-size: 3rem;
+  }
+
+  .welcomeMessage {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 1.2rem;
+    background-color: #FFFDFA;
+    color: #908660;
+    max-width: 55rem;
+    margin: 2rem;
+    padding: 3.2rem;
+  }
+
+
+  .pic-carousel {
+    padding-top: 2rem;
+  }
+
+  .images{
+    width: 350px;
+    height:250px;
+    top: 100px;
+    left:20px;  
+  }
+
+  .right-arrow {
+    right: 1rem;
+    top: 105%;
+    z-index: 0;
+  }
+
+  .left-arrow {
+    left: 1rem;
+    top: 105%;
+    z-index: 0;
+  }
+}

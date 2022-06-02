@@ -2,7 +2,7 @@
   "name": "the-new-bungalow",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://thenewbungalow.netlify.app",
+  "homepage": "https://haideecardy.github.io/theNewBungalow/",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.1.1",
     "@fortawesome/free-solid-svg-icons": "^6.1.1",
@@ -16,6 +16,8 @@
     "dotenv": "^16.0.1",
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
+    "react-dotenv": "^0.1.3",
+    "react-icons": "^4.3.1",
     "react-router-dom": "^6.3.0",
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
@@ -26,7 +28,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -b main -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -48,6 +50,19 @@
   },
   "devDependencies": {
     "@faker-js/faker": "^7.0.1",
-    "gh-pages": "^4.0.0"
+    "gh-pages": "^4.0.0",
+    "netlify-cli": "^10.4.0"
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HaideeCardy/theNewBungalow.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HaideeCardy/theNewBungalow/issues"
   }
 }
