@@ -1,7 +1,7 @@
 import React, { useState } from "react"
-import CarouselImg1 from "../assets/sittingArea.jpg"
-import CarouselImg2 from "../assets/livingArea.jpg"
-import CarouselImg3 from "../assets/saxthorpe.jpg"
+import CarouselImg1 from "../assets/sittingArea.JPG"
+import CarouselImg2 from "../assets/livingArea.JPG"
+import CarouselImg3 from "../assets/saxthorpe.JPG"
 import { FaArrowAltCircleRight } from "@react-icons/all-files/fa/FaArrowAltCircleRight"
 import { FaArrowAltCircleLeft } from "@react-icons/all-files/fa/FaArrowAltCircleLeft"
 
