@@ -20,6 +20,6 @@ export default function useFetch(url) {
         setLoading(false);
       }
     })();
-  }, []);
+  }, [url]);
   return { loading, data, error };
 }
