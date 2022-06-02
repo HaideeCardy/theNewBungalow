@@ -49,6 +49,7 @@
 
 .btn:hover{
   color:#4d4b30;
+  cursor: pointer;
 }
 
 #random-btn {
