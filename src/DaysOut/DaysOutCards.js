@@ -26,7 +26,7 @@ const DaysOutCards = () => {
           <div className="content">
             <h2 className="header" id='cardHeadings'>Holt</h2>
             <div className="meta">
-              <p className="info">Holt is a popular visitors spot with an array of independent shops and quality brand stores. <br></br>It is incrediably dog friendly with well-behaved dogs welcome in shops, pubs and eateries. </p>
+              <p className="info">Holt is a popular visitors spot with an array of independent shops and quality brand stores. <br/>It is incrediably dog friendly with well-behaved dogs welcome in shops, pubs and eateries. </p>
             </div>
           </div>
           </div>
@@ -42,7 +42,7 @@ const DaysOutCards = () => {
         <div className="content">
           <h2 className="header" id='cardHeadings'>Sheringham</h2>
           <div className="meta">
-            <p className="info">A new find for us after a recent refurb. The staff are extremely accommodating and the landscaped garden is very well done. <br></br> Most importantly of all the food was great.</p>
+            <p className="info">Sheringham is a traditional seaside town and home to a striking clifftop Golf course.<br/>The beach offers sand, pebbles and rock-pools but be sure to check the tides if you are hoping to build a sandcastle!</p>
           </div>
         </div>
         </div>
@@ -57,7 +57,7 @@ const DaysOutCards = () => {
         <div className="content">
           <h2 className="header" id='cardHeadings'>The Poppy Line</h2>
           <div className="meta">
-            <p className="info">All aboard the steam trains to admire the stunning scenery from the Victorian seaside resort of Sheringham to the Georgian town of Holt.<br></br> Look out for their special dining events online.</p>
+            <p className="info">All aboard the steam trains to admire the stunning scenery from the Victorian seaside resort of Sheringham to the Georgian town of Holt.<br/>Look out for their special dining events online.</p>
           </div>
         </div>
         </div>
@@ -73,7 +73,7 @@ const DaysOutCards = () => {
         <div class="content">
           <h2 class="header" id='cardHeadings'>Wells-next-the-Sea</h2>
           <div class="meta">
-            <p class="info">Home to a picturesque sandy beach lined with quinessential beach huts; some of which can be hired. <br></br>As you head further into the town you will find many independent stores to amble the afternoon away. </p>
+            <p class="info">Home to a picturesque sandy beach lined with quinessential beach huts; some of which can be hired. <br/>As you head further into the town you will find many independent stores to amble the afternoon away. </p>
           </div>
         </div>
         </div>
@@ -89,7 +89,7 @@ const DaysOutCards = () => {
         <div class="content">
           <h2 class="header" id='cardHeadings'>Holkham</h2>
           <div class="meta">
-            <p class="info">A great day out with the children. They often hold events and trails which enable children to explore the hall, buildings and gardens whilst you soak in all the history.<br></br>Even better there is a breathakingly beautiful beach just down the road.</p>
+            <p class="info">A great day out with the children. They often hold events and trails which enable children to explore the hall, buildings and gardens whilst you soak in all the history.<br/>Even better there is a breathakingly beautiful beach just down the road.</p>
           </div>
         </div>
         </div>
