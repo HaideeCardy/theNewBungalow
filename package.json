@@ -2,7 +2,7 @@
   "name": "the-new-bungalow",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://haideecardy.github.io/theNewBungalow/",
+  "homepage": "./",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.1.1",
     "@fortawesome/free-solid-svg-icons": "^6.1.1",
